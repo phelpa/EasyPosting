@@ -1,0 +1,36 @@
+.likes-heart {
+	opacity: 0;
+	transition: all 0.5s;
+	transform: translateX(-20%) translateY(-30%) scale(3);
+	display: block;
+}
+
+.likes-heart.like-enter {
+	transition: all 0.2s;
+	transform: translateX(-20%) translateY(-30%) scale(1);
+	opacity: 1;
+}
+
+.likes-heart.like-enter.like-enter-active {
+	transform: translateX(-20%) translateY(-30%) scale(3);
+}
+
+.likes-heart .like-leave-active {
+	display: none;
+}
+
+.likes-heart {
+	background: url("http://f.cl.ly/items/3Y373q2Q3J3Y1j203n0m/Bitmap-3.png") center no-repeat;
+	background-size: contain;
+	font-size: 2rem;
+	padding: 1rem;
+	position: absolute;
+	color: #00f;
+	left: 50%;
+	top: 50%;
+	pointer-events: none;
+}
+
+.grid-photo-wrap {
+	position: relative;
+}

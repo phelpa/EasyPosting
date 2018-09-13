@@ -1,0 +1,27 @@
+.title {
+  font-family: 'Indie Flower', cursive;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  
+}
+/*Overriding Argon.css properties*/
+.form-control::placeholder
+ {
+     opacity: 1;  
+     color: #777777;
+ }
+
+ .form-control:focus::placeholder
+ {
+     color: #777777;
+
+ }
+
+ form, input, label, p {
+  color: black !important;
+}
